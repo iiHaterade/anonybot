@@ -1,6 +1,6 @@
 local A_1 = "2"
 local A_2 = 6
-local A_3 = 2
+local A_3 = 1
 local Event = game:GetService("ReplicatedStorage").Remotes.Main.Vote
 Event:FireServer(A_1, A_2, A_3)
 task.wait(10)
