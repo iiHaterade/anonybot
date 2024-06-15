@@ -21,6 +21,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
+task.wait(1)
 game:GetService("Workspace").Towers["Shadow Freddy"].Name = "1"
 task.wait(.2)
 local args = {
@@ -36,6 +37,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
+task.wait(1)
 game:GetService("Workspace").Towers["Bonnie"].Name = "2"
 task.wait(.2)
 local args = {
@@ -94,6 +96,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Towers"):WaitForChild("SummonTower"):FireServer(unpack(args))
+task.wait(1)
 game:GetService("Workspace").Towers["Withered Foxy"].Name = "3"
 task.wait()
 local args = {
